@@ -1,6 +1,12 @@
-Manually adding and maintaining EntityFramework type configurations can be a pain. K Scott Allen wrote [a great blog](http://odetocode.com/blogs/scott/archive/2011/11/28/composing-entity-framework-fluent-configurations.aspx) post showing how to use MEF in order to add configurations in a scalable way. This library packages the provided approach into a reusable extension method and utility class.
+##EfModelComposer
+
+Manually adding and maintaining EntityFramework type configurations can be a pain. K Scott Allen wrote [a great blog post](http://odetocode.com/blogs/scott/archive/2011/11/28/composing-entity-framework-fluent-configurations.aspx) showing how to use MEF in order to add configurations in a scalable way. This library packages the provided approach into a pluggable way.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/vpjnu4fhpkvq6pvk)](https://ci.appveyor.com/project/hhorne/efmodelcomposer)
+
+**Install from Nuget**
+
+	Install-Package EfModelComposer
 
 **Example Usage** 
 
