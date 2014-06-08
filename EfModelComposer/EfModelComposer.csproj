@@ -47,7 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ContextConfiguration.cs" />
-    <Compile Include="DbContextExtensions.cs" />
+    <Compile Include="DbModelBuilderExtensions.cs" />
     <Compile Include="EntityConfiguration.cs" />
     <Compile Include="ExportConfigurationAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

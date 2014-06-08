@@ -5,7 +5,7 @@ using System.Data.Entity;
 using System.Reflection;
 using EfModelComposer;
 
-public static class DbContextExtensions
+public static class DbModelBuilderExtensions
 {
 	/// <summary>
 	/// Loads all EntityConfigurations from a specific assembly.
@@ -14,7 +14,7 @@ public static class DbContextExtensions
 	/// <param name="assembly"></param>
 	public static void ComposeModelConfiguration(this DbModelBuilder modelBuilder, Assembly assembly)
 	{
-		DbContextExtensions.ComposeModelConfiguration(modelBuilder, new[]{ assembly });
+		DbModelBuilderExtensions.ComposeModelConfiguration(modelBuilder, new[]{ assembly });
 	}
 
 	/// <summary>
