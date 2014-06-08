@@ -12,7 +12,7 @@
 		<description>$description$</description>
 		<releaseNotes>First release!</releaseNotes>
 		<copyright>Copyright 2014</copyright>
-		<tags>EntityFramework</tags>
+		<tags>EntityFramework EF ORM</tags>
 		<frameworkAssemblies>
 			<frameworkAssembly assemblyName="System.ComponentModel.Composition" targetFramework="" />
 		</frameworkAssemblies>

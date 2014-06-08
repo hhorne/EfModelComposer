@@ -5,9 +5,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("EfModelComposer")]
-[assembly: AssemblyDescription("Automatic EntityFramework type configuration loader.")]
+[assembly: AssemblyDescription("A scalable way of composing EntityFramework type configuration classes using MEF.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Heath H")]
+[assembly: AssemblyCompany("Heath Horne")]
 [assembly: AssemblyProduct("EfModelComposer")]
 [assembly: AssemblyCopyright("Copyright © 2014")]
 [assembly: AssemblyTrademark("")]
