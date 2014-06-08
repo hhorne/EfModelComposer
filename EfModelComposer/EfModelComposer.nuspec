@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>$id$</id>
+		<version>$version$</version>
+		<title>$title$</title>
+		<authors>$author$</authors>
+		<owners>$author$</owners>
+		<licenseUrl>https://raw.githubusercontent.com/hhorne/efmodelcomposer/master/LICENSE</licenseUrl>
+		<projectUrl>http://github.com/hhorne/efmodelcomposer</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>$description$</description>
+		<releaseNotes>First release!</releaseNotes>
+		<copyright>Copyright 2014</copyright>
+		<tags>EntityFramework</tags>
+		<frameworkAssemblies>
+			<frameworkAssembly assemblyName="System.ComponentModel.Composition" targetFramework="" />
+		</frameworkAssemblies>
+	</metadata>
+</package>
